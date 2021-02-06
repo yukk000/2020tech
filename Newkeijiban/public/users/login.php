@@ -1,4 +1,3 @@
-
 <head>
   <title>ログイン</title>
 </head>
