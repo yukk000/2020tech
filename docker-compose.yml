@@ -29,3 +29,8 @@ services:
     build: ./
     volumes:
       - ./public/:/var/www/public/
+   redis:
+    container_name: redis
+    image: redis:latest
+    ports:
+      - 6379:6379
